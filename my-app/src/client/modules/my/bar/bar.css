@@ -1,0 +1,397 @@
+@media (min-width: 1221px) {
+
+    .bar-icon-margin-left{
+        margin-left: 18.5%;
+    }
+
+
+    .bar-second-ul-margin-left{
+        margin-left: 35%;
+    }
+
+
+    .bar-div{
+        background-color: #141d38;
+        height: 40px;
+    }
+
+    .bar-bi{
+        height: 39px;
+        font-size: 19px;
+        color: #007bff;
+    }
+
+
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+
+    .bar-text{
+        font-size: 14px;   
+    }
+}
+
+
+@media (min-width: 1051px) and (max-width: 1220px) {
+
+    .bar-icon-margin-left{
+        margin-left: 16.5%;
+    }
+
+    .bar-second-ul-margin-left{
+        margin-left: 33%;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 37px;
+    }
+    
+    .bar-bi{
+        height: 36px;
+        font-size: 17px;
+        color: #007bff;
+    }
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+@media (min-width: 975px) and (max-width: 1050px) {
+
+    .bar-icon-margin-left{
+        margin-left: 14.5%;
+    }
+
+    .bar-second-ul-margin-left{
+        margin-left: 31%;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 36px;
+    }
+    
+    .bar-bi{
+        height: 35px;
+        font-size: 14px;
+        color: #007bff;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+@media (max-width: 974px) {
+
+    .bar-div{
+        border: n;
+        height: 0px;
+        visibility: hidden;
+    }
+}
+
+/*
+@media (min-width: 1651px) {
+
+    .bar-icon-margin-left{
+        margin-left: 22rem;
+    }
+
+
+    .bar-tele-margin-left{
+        margin-left: 43rem;
+    }
+
+    .bar-div{
+        background-color: #141d38;
+        height: 40px;
+    }
+
+    .bar-bar-bi{
+        height: 39px;
+        font-size: 19px;
+        color: #aaaaaa;
+    }
+
+
+    .bar-bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+
+    .bar-text{
+        font-size: 14px;   
+    }
+
+}
+
+
+@media (min-width: 1500px) and (max-width: 1650px){
+
+    .bar-icon-margin-left{
+        margin-left: 19.5rem;
+    }
+    
+    
+    .bar-tele-margin-left{
+        margin-left: 36rem;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 40px;
+    }
+    
+    .bar-bi{
+        height: 39px;
+        font-size: 19px;
+        color: #aaaaaa;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+@media (min-width: 1350px) and (max-width: 1500px){
+
+    .bar-icon-margin-left{
+        margin-left: 17rem;
+    }
+    
+    
+    .bar-tele-margin-left{
+        margin-left: 30rem;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 40px;
+    }
+    
+    .bar-bi{
+        height: 39px;
+        font-size: 19px;
+        color: #aaaaaa;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+@media (min-width: 1225px) and (max-width: 1350px){
+
+    .bar-icon-margin-left{
+        margin-left: 13rem;
+    }
+    
+    
+    .bar-tele-margin-left{
+        margin-left: 26rem;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 40px;
+    }
+    
+    .bar-bi{
+        height: 39px;
+        font-size: 19px;
+        color: #aaaaaa;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+@media (min-width: 1121px) and (max-width: 1224px){
+
+    .bar-icon-margin-left{
+        margin-left: 10.6rem;
+    }
+    
+    
+    .bar-tele-margin-left{
+        margin-left: 21.5rem;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 40px;
+    }
+    
+    .bar-bi{
+        height: 39px;
+        font-size: 19px;
+        color: #aaaaaa;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+@media (min-width: 1021px) and (max-width: 1120px) {
+
+    .bar-icon-margin-left{
+        margin-left: 8rem;
+    }
+
+    .bar-tele-margin-left{
+        margin-left: 19rem;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 35px;
+    }
+    
+    .bar-bi{
+        height: 34px;
+        font-size: 16px;
+        color: #aaaaaa;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+@media (min-width: 885px) and (max-width: 1020px) {
+
+    .bar-icon-margin-left{
+        margin-left: 6.5rem;
+    }
+
+    .bar-tele-margin-left{
+        margin-left: 15.5rem;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 35px;
+    }
+    
+    .bar-bi{
+        height: 34px;
+        font-size: 16px;
+        color: #aaaaaa;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 14px;   
+    }
+    
+}
+
+
+
+@media (min-width: 769px) and (max-width: 884px) {
+
+    .bar-icon-margin-left{
+        margin-left: 5.5rem;
+    }
+
+    .bar-tele-margin-left{
+        margin-left: 12rem;
+    }
+    
+    .bar-div{
+        background-color: #141d38;
+        height: 30px;
+    }
+    
+    .bar-bi{
+        height: 29px;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+    
+    
+    .bar-bi:hover{
+        color: white;
+        text-decoration: white;
+    }
+    
+    .bar-text{
+        font-size: 12px;   
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .bar-div{
+        border: n;
+        height: 0px;
+        visibility: hidden;
+    }
+}*/

@@ -1,0 +1,109 @@
+<template>
+
+    <!-- <nav>
+
+        <div class="logo" >
+            <a class="" href="#">
+                <img class="navbar-img-text-align" src="https://img.icons8.com/offices/56/ffffff/cloud.png"/>
+                <span class="navbar-img-text-align"> Nuvol Tech </span>
+            </a>
+        </div>
+
+        <ul class="navbar-links">
+            <li>
+                <a href="#"><span >Home </span><span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+                <a href="#"><span>Features </span></a>
+            </li>
+            <li>
+                <a href="#"><span>About</span></a>
+            </li>
+            <li>
+                <a  href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>Dropdown link </span>
+                </a>
+                <-- <div aria-labelledby="navbarDropdownMenuLink">
+                    <a href="#">Action</a>
+                    <a href="#">Another action</a>
+                    <a href="#">Something else here</a>
+                </div> ->
+            </li>
+        </ul>
+
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </nav> -->
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
+        
+        <div class="slds-list_horizontal navbar-horizontal-div-margin-left">
+            
+            <div class="col" >
+                <a class="navbar-brand navbar-a" href="#">
+                    <img class="navbar-img-text-align" src="https://img.icons8.com/offices/56/ffffff/cloud.png"/>
+                    <span class="navbar-h3 slds-m-left_xxx-small navbar-img-text-align"> Nuvol Tech </span>
+                </a>
+            </div>
+
+            
+            <div class="col navbar-horizontal-nested-div-margin-left">
+
+                <div class="burger" onclick={navSlide}>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    
+                </div>
+                
+                
+                <ul class="navbar-links">
+                    
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#"><span class="navbar-h6 navbar-link-color">Home </span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#"><span class="navbar-h6 navbar-link-color">Features </span></a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#"><span class="navbar-h6 navbar-link-color">Pricing </span></a>
+                    </li>
+
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#"><span class="navbar-h6 navbar-link-color">About </span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrpping" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="navbar-h6 navbar-link-color">dropping </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item navbar-drop-color" href="#">noada</a>
+                            <a class="dropdown-item navbar-drop-color" href="#">Anotahsdher action</a>
+                            <a class="dropdown-item navbar-drop-color" href="#">Sometasdahing else here</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="navbar-h6 navbar-link-color">Dropdown link </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item navbar-drop-color" href="#">Action</a>
+                            <a class="dropdown-item navbar-drop-color" href="#">Another action</a>
+                            <a class="dropdown-item navbar-drop-color" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+      </nav>
+      
+
+</template>
